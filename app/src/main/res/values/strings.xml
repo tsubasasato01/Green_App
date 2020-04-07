@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Green_app</string>
+    <string name="green_fix">Green Fix</string>
+    <string name="are_you_a">Are you a</string>
+    <string name="business">Business</string>
+    <string name="or">Or</string>
+    <string name="consumer">consumer</string>
+    <string name="trending_keywords">Trending Keywords</string>
+    <string name="title_activity_second">Second</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="prediction_of_high_demand_items">Prediction of High Demand Items</string>
+    <string name="consumer2">Consumer</string>
+    <string name="shopping">Shopping :</string>
+    <string name="checkbox1">CheckBox</string>
+    <string name="checkbox2">CheckBox</string>
+    <string name="checkbox3">CheckBox</string>
+
+
+
+
 </resources>

@@ -7,17 +7,99 @@
     tools:context=".AfterThirdActivity">
 
     <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:text="Water"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="62dp"
+        android:text="Import More:"
+        app:layout_constraintStart_toStartOf="@+id/progressBar11"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar11" />
+
+    <ProgressBar
+        android:id="@+id/progressBar13"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="50dp"
+        android:max="100"
+        android:progress="20"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Paper Towels"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar12" />
+
+    <ProgressBar
+        android:id="@+id/progressBar11"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:max="100"
+        android:progress="35"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Water"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar12"
+        app:layout_constraintStart_toEndOf="@+id/progressBar12"
+        app:layout_constraintTop_toTopOf="@+id/progressBar12" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Bread"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintStart_toStartOf="@+id/textView20" />
+
+    <ProgressBar
+        android:id="@+id/progressBar12"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:max="100"
+        android:progress="80"
+        app:layout_constraintStart_toStartOf="@+id/progressBar13"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar13" />
+
+    <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="412dp"
+        android:layout_marginBottom="27dp"
         android:gravity="center"
         android:text="@string/shopping"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintStart_toStartOf="@+id/checkBox" />
 
     <TextView
         android:id="@+id/textView5"
@@ -31,28 +113,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ListView
-        android:id="@+id/listview_consumer"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="151dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="65dp"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"
-        android:text="@string/checkbox1"
+        android:text="Bread"
         app:layout_constraintBottom_toTopOf="@+id/checkBox2"
-        app:layout_constraintStart_toStartOf="@+id/checkBox2"
-        app:layout_constraintTop_toBottomOf="@+id/listview_consumer" />
+        app:layout_constraintStart_toStartOf="@+id/checkBox2" />
 
     <CheckBox
         android:id="@+id/checkBox3"
@@ -60,19 +128,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="69dp"
         android:layout_marginBottom="54dp"
-        android:text="@string/checkbox1"
+        android:text="Paper Towels"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="14dp"
-        android:text="@string/checkbox1"
+        android:text="Water"
         app:layout_constraintBottom_toTopOf="@+id/checkBox3"
-        app:layout_constraintStart_toStartOf="@+id/checkBox3"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintStart_toStartOf="@+id/checkBox3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

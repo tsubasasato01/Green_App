@@ -21,8 +21,8 @@
     <string name="checkbox1">CheckBox</string>
     <string name="checkbox2">CheckBox</string>
     <string name="checkbox3">CheckBox</string>
-
-
+    <string name="homelogo">homelogo</string>
+    <string name="button2">Button</string>
 
 
 </resources>

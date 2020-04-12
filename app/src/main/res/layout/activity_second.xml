@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3A3A3A"
     tools:context=".SecondActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="102dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="59dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="53dp"
         android:gravity="center"
         android:text="@string/business"
+        android:textColor="#FFFFFF"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/spinner"
-        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="@+id/spinner"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
@@ -25,6 +26,7 @@
         android:layout_width="175dp"
         android:layout_height="0dp"
         android:layout_marginBottom="87dp"
+        android:background="#FFFFFF"
         android:dropDownWidth="match_parent"
         android:entries="@array/stores_array"
         app:layout_constraintBottom_toTopOf="@+id/spinner2"
@@ -36,12 +38,12 @@
         android:id="@+id/spinner2"
         android:layout_width="154dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="372dp"
+        android:layout_marginBottom="203dp"
+        android:background="#FFFFFF"
         android:dropDownWidth="match_parent"
         android:entries="@array/location_array"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/spinner"
         app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
     <Button
@@ -52,6 +54,7 @@
         android:text="@string/button2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

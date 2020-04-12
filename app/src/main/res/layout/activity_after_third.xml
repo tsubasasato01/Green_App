@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3A3A3A"
     tools:context=".AfterThirdActivity">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_marginTop="11dp"
         android:text="Water"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/textView23"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -24,6 +26,7 @@
         android:layout_marginStart="13dp"
         android:layout_marginTop="62dp"
         android:text="Import More:"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/progressBar11"
         app:layout_constraintTop_toBottomOf="@+id/progressBar11" />
 
@@ -34,6 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
         android:max="100"
         android:progress="20"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -45,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:text="Paper Towels"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/textView20"
         app:layout_constraintTop_toBottomOf="@+id/progressBar12" />
 
@@ -55,6 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
         android:max="100"
         android:progress="35"
         app:layout_constraintEnd_toStartOf="@+id/textView22"
@@ -66,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:text="Water"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/progressBar12"
         app:layout_constraintStart_toEndOf="@+id/progressBar12"
         app:layout_constraintTop_toTopOf="@+id/progressBar12" />
@@ -76,6 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
         android:text="Bread"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintStart_toStartOf="@+id/textView20" />
 
@@ -85,6 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
         android:max="100"
         android:progress="80"
         app:layout_constraintStart_toStartOf="@+id/progressBar13"
@@ -97,6 +108,7 @@
         android:layout_marginBottom="27dp"
         android:gravity="center"
         android:text="@string/shopping"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/checkBox"
         app:layout_constraintStart_toStartOf="@+id/checkBox" />
@@ -108,6 +120,7 @@
         android:layout_marginTop="111dp"
         android:gravity="center"
         android:text="@string/prediction_of_high_demand_items"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,7 +131,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"
+        android:shadowColor="#FFFFFF"
         android:text="Bread"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/checkBox2"
         app:layout_constraintStart_toStartOf="@+id/checkBox2" />
 
@@ -128,7 +143,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="69dp"
         android:layout_marginBottom="54dp"
+        android:shadowColor="#FFFFFF"
         android:text="Paper Towels"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -137,7 +154,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="14dp"
+        android:shadowColor="#FFFFFF"
         android:text="Water"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/checkBox3"
         app:layout_constraintStart_toStartOf="@+id/checkBox3" />
 
